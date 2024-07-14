@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Pruebas de Software</title>
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Poppins:wght@400;700;900&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/css/registro.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header-contain"> 
+        <div class="header-edit">
+            <div class="logo">
+                <a href="#"><img src="../../static/assets/images/favicon.ico" alt="Logo de Empresa"></a>
+                <span class="pages">DEVLAB </span>
+            </div>
+            <div class="links-pages">
+                <a href="../../../../index.html" class="pages">Inicio</a>
+                <a href="./matricula.html" class="pages">Matricula</a>
+                <a href="../actividades/actividades.html" class="pages">Actividades</a>
+            </div>              
+        </div>
+    </header>
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com" class="social-icon facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.messenger.com" class="social-icon messenger" target="_blank">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+        <a href="https://www.whatsapp.com" class="social-icon whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com" class="social-icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com" class="social-icon youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com" class="social-icon tiktok" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+    <br><br><br><br><br>
+    <!-- Sistema de rejillas -->
+    <main>
+        <article class="container container-form">
+            <section class="row">
+                <section class="col-xs-12 col-sm-12 col-md-12">
+                    <form name="formulario" id="formulario" action="./php/send.php" method="post">
+                        <br>
+                        <h1 id="title" class="form-title">REGÍSTRATE</h1>
+                        <div class="inputs">
+                            <div class="input-field" id="nameInput">
+                                <i class="fa-solid fa-user icono"></i>
+                                <input type="text" id="nombres" name="names" placeholder="Nombres">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-regular fa-address-card icono"></i>
+                                <input type="text" id="dni" name="dni" maxlength="8" placeholder="Dni">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-location-dot icono"></i>
+                                <input type="text" id="direc" name="address" placeholder="Dirección">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-house icono"></i>
+                                <input type="text" id="resid" name="residence" placeholder="Residencia">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-mobile-screen-button icono"></i>
+                                <input type="text" id="celuAp" name="cellphoneAttorney" maxlength="9"
+                                    placeholder="Celular Apoderado">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-mobile-screen icono"></i>
+                                <input type="text" id="celuAl" name="cellphoneStudent" maxlength="9"
+                                    placeholder="Celular Alumno (Opcional)">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-calendar-days icono"></i>
+                                <input type="date" id="fechaN" name="birthdate" placeholder="Fecha de Nacimiento">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-regular fa-envelope icono"></i>
+                                <input type="text" name="correo" id="email" placeholder="Correo">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-user-check icono"></i>
+                                <input type="text" name="nomUsu" id="username" placeholder="Nombre de Usuario">
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-key icono"></i>
+                                <input type="password" id="contrasena" name="password" maxlength="15" minlength="8"
+                                    placeholder="Contraseña">
+                            </div>
+                            <p>¿Olvidaste tu contraseña? <a href="#">click aquí</a></p>
+                            <div class="btn-field">
+                                <input id="signUp" type="submit" value="Registrarse" class="boton">
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </section>
+        </article>
+    </main>
+    <br><br>
+    
+    <!-- Fin de sistema de rejillas -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-mobile-screen-button icon-footer-contact"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec1">
+              <h5 class="titulo-foot">Contacto</h5>
+              <p class="parr-foot">+51 939 123 987</p>
+              <p class="parr-foot">+51 939 123 987(Whatsapp)</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-envelope icon-footer-email"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec2">
+              <h5 class="titulo-foot">E-Mail</h5>
+              <p class="parr-foot">devlab.pe@gmail.com</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-location-dot icon-footer3"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec3">
+              <h5 class="titulo-foot">Dirección</h5>
+              <p class="parr-foot">Lima - Perú</p>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/937343082/" target="_blank"><i class="fa-brands fa-square-whatsapp boton-whatsapp"></i></a>
+
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <footer class="copy">DEVLAB SOLUCIONES INFORMÁTICAS SAC @2022 - Todos los derechos reservados <span style="padding-left: 30em  ;">Desarrollador por <span style="color:red ;">Giancarlos Barboza N.</span> </span></footer>
+</body>
+</html>

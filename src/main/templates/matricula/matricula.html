@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Pruebas de Software</title>
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Poppins:wght@400;700;900&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../static/css/index.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header-contain"> 
+        <div class="header-edit">
+            <div class="logo">
+                <a href="#"><img src="../../static/assets/images/favicon.ico" alt="Logo de Empresa"></a>
+                <span class="pages">DEVLAB </span>
+            </div>
+            <div class="links-pages">
+                <a href="../../../../index.html" class="pages">Inicio</a>
+                <a href="./matricula.html" class="pages">Matricula</a>
+                <a href="../actividades/actividades.html" class="pages">Actividades</a>
+            </div>              
+        </div>
+    </header>
+
+    <div class="social-bar">
+        <a href="https://www.facebook.com" class="social-icon facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.messenger.com" class="social-icon messenger" target="_blank">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+        <a href="https://www.whatsapp.com" class="social-icon whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com" class="social-icon instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com" class="social-icon youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com" class="social-icon tiktok" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+    <br><br><br><br><br>
+    <!-- Sistema de rejillas -->
+    <article class="container">
+        <section class="row section-principal">
+            <section class="col-xs-12 col-sm-12 col-md-8 section-1">
+                <i class="fa-solid fa-book icon-title"></i>              
+                <h1 class="title">Acerca <span class="title-2">del Programa</span></h1><br><br>
+                <p class="text-matri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores alias magnam ipsam veritatis quibusdam iste asperiores? Dolore delectus pariatur culpa ab tempore voluptas eum fugit rem similique, iusto magni illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam debitis molestiae odio deleniti magni. Tempore consequatur dolores error neque! Ab eaque eum mollitia, dolore exercitationem commodi aliquam dolores amet modi.</p>
+
+                <i class="fa-solid fa-user-astronaut icon-title"></i>
+                <h1 class="title">Campo <span class="title-2">Laboral</span></h1><br><br>
+                <p class="text-matri">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni eos eum facilis modi. Doloremque illum nisi, atque optio libero incidunt adipisci nobis sint repudiandae esse vel perspiciatis suscipit itaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore, voluptatibus non dolor explicabo quasi consequuntur et, ipsa, quidem nostrum incidunt quam. Recusandae voluptas, eveniet quaerat enim architecto sapiente hic.</p>
+            </section>
+            <section class="col-xs-12 col-sm-12 col-md-4 section-form">
+                <form action="enviar.php" method="post" class="formulario">
+                    <div class="matricula">
+                        <h1 class="title-matricula">¡Matrícula Gratis!</h1>
+                    </div>
+                    <h1 class="title-form">Solicita más información aquí</h1>
+                    <div class="form-entrada">
+                        <input class="inputs" type="text" name="nombres" placeholder="Nombres" required><br>
+                        <input class="inputs" type="text" name="apellidos" placeholder="Apellidos" required><br>
+                        <input class="inputs" type="email" name="email" placeholder="Correo Electrónico" required><br>
+                        <input class="inputs" type="tel" name="celular" placeholder="Teléfono" required><br>
+                        <div class="input-general"><input class="input-check" type="checkbox" required>
+                          <span class="text-span">Acepto haber leído las <a href="#" class="link-terminos">políticas de privacidad</a> y los <a href="#" class="link-terminos">términos y condiciones.</a></span></div>
+                        <input class="input-solic" type="submit" value="Solicitar">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </article>
+    <br><br>
+    
+    <!-- Fin de sistema de rejillas -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-mobile-screen-button icon-footer-contact"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec1">
+              <h5 class="titulo-foot">Contacto</h5>
+              <p class="parr-foot">+51 939 123 987</p>
+              <p class="parr-foot">+51 939 123 987(Whatsapp)</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-envelope icon-footer-email"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec2">
+              <h5 class="titulo-foot">E-Mail</h5>
+              <p class="parr-foot">devlab.pe@gmail.com</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2">
+              <i class="fa-solid fa-location-dot icon-footer3"></i>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-2 footer-sec3">
+              <h5 class="titulo-foot">Dirección</h5>
+              <p class="parr-foot">Lima - Perú</p>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/937343082/" target="_blank"><i class="fa-brands fa-square-whatsapp boton-whatsapp"></i></a>
+
+      </footer>
+    <footer class="copy">DEVLAB SOLUCIONES INFORMÁTICAS SAC @2022 - Todos los derechos reservados <span style="padding-left: 30em  ;">Desarrollador por <span style="color:red ;">Giancarlos Barboza N.</span> </span></footer>
+</body>
+</html>

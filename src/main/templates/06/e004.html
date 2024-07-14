@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="./css/e004.css">
+</head>
+<body>
+    <h1>Boleta de pago de salario del empleado</h1>
+    <div class="form-container">
+        <form action="./php/exercices/e004.php" method="post">
+            <label for="name">Nombre del empleado: </label>
+            <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required>
+            <label for="hours">Horas trabajadas: </label>
+            <input type="text" name="hours" id="hours" placeholder="Ingrese las horas trabajadas" required>
+            <label for="fee">Tarifa: </label>
+            <input type="text" name="fee" id="fee" placeholder="Ingrese la tarifa" required>
+            <input type="submit" value="Calcular salario">
+        </form>
+    </div>
+</body>
+</html>
